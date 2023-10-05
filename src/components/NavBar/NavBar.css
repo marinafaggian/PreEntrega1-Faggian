@@ -1,0 +1,33 @@
+header { 
+    color: #73283d;
+    display: flex;
+    align-items: center;
+    margin 0px 10px;
+    justify-content: space-between;
+    border-bottom: 2px solid #73283d;
+}
+
+.titulos {
+    padding: 10px;
+    font-family: 'Megrim', cursive;
+}
+
+h1 {
+    margin: 5px 10px;
+}
+
+h3 {
+    margin: 5px 10px;
+}
+
+ul {
+    margin: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 300; 
+}
