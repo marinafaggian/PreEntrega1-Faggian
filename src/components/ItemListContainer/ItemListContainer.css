@@ -1,0 +1,7 @@
+.saludo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Tajawal', sans-serif;
+    color: #73283d;
+    font-weight: 500;
+}
