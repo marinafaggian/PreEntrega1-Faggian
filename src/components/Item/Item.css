@@ -1,0 +1,22 @@
+.cardProducto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 1rem;
+    width: 15rem;
+    margin: 15px;
+    padding: 15px;
+}
+
+.cardProducto img {
+    width: inherit;
+}
+
+.cardProducto button {
+    background-color: lightpink;
+    border-radius: 1rem;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}

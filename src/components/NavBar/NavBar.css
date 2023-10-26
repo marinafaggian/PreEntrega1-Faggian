@@ -12,6 +12,10 @@ header {
     font-family: 'Megrim', cursive;
 }
 
+.logoNavBar {
+    width: 9vw;
+}
+
 h1 {
     margin: 5px 10px;
 }
