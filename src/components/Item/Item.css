@@ -13,6 +13,7 @@
 
 .cardProducto img {
     width: inherit;
+    border-radius: 1rem;
 }
 
 /* .cardProducto Link {
