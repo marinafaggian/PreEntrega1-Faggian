@@ -3,7 +3,7 @@ import './ItemDetail.css';
 const ItemDetail = ({ id, nombre, autor, idCat, precio, img }) => {
     return (
         <div className='contenedorItem'>
-            <h2>Nombre: {nombre}</h2>
+            <h2>Nombre:{nombre} </h2>
             <h3>Autor: {autor}</h3>
             <h3>Precio: {precio}</h3>
             <h3>Orgánico: {idCat}</h3>
