@@ -1,15 +1,13 @@
 const misProductos = [
-    { id: "1", nombre: "Balada para mi muerte", autor:"Nestor Zadoff", idCat: "SATB", precio: 1000, img: '../img/BaladaParaMiMuerte.jpg' },
-    { id: "2", nombre: "Buenos aires hora cero", autor:"Nestor Zadoff", idCat: "SATB", precio: 1000, img: '../img/BuenosAiresHoraCero.jpg' },
-    { id: "3", nombre: "Chacarera de las piedras", autor:"Gustavo Felice", idCat: "SATB", precio: 1200, img: '../img/ChacareraDeLasPiedras.jpg' },
-    { id: "4", nombre: "Compadre del sol", autor:"Ricardo Mansilla", idCat: "SATB", precio: 1500, img: '../img/CompadreDelSol.jpg' },
-    { id: "5", nombre: "El día que me quieras", autor:"Vivian Tabbush", idCat: "SATB", precio: 1500, img: '../img/ElDiaQueMeQuieras.jpg' },
-    { id: "6", nombre: "Gato de la calesita", autor:"Camilo Matta", idCat: "SA", precio: 2000, img: '../img/GatoDeLaCalesita.jpg' },
-    { id: "7", nombre: "La baguala", autor:"Francisco Gato", idCat: "SA", precio: 1500, img: '../img/LaBaguala.jpg' },
-    { id: "8", nombre: "El Porteñito", autor:"Oreste Chlopecki", idCat: "TB", precio: 2000, img: '../img/ElPorteñito.jpg' },
-    { id: "9", nombre: "Melodías de Arrabal", autor:"Vivian Tabbush", idCat: "SA", precio: 1500, img: '../img/MelodiasDeArrabal.jpg' },
-    { id: "10", nombre: "Milonga triste", autor:"Javier Zentner", idCat: "TB", precio: 1900, img: '../img/MilongaTriste.jpg' },
-    { id: "11", nombre: "El explicado", autor:"Les Luthiers", idCat: "TB", precio: 2500, img: '../img/ElExplicado.jpg' },
+    { id: "1", nombre: "Balada para mi muerte", autor:"Nestor Zadoff", stock:20, idCat: "SATB", precio: 1000, img: '../img/BaladaParaMiMuerte.jpg' },
+    { id: "2", nombre: "Compadre del sol", autor:"Ricardo Mansilla", stock:20, idCat: "SATB", precio: 1500, img: '../img/CompadreDelSol.jpg' },
+    { id: "3", nombre: "El día que me quieras", autor:"Vivian Tabbush", stock:20, idCat: "SATB", precio: 1500, img: '../img/ElDiaQueMeQuieras.jpg' },
+    { id: "4", nombre: "Gato de la calesita", autor:"Camilo Matta", stock:20, idCat: "SA", precio: 2000, img: '../img/GatoDeLaCalesita.jpg' },
+    { id: "5", nombre: "La baguala", autor:"Francisco Gato", stock:20, idCat: "SA", precio: 1500, img: '../img/LaBaguala.jpg' },
+    { id: "6", nombre: "El Porteñito", autor:"Oreste Chlopecki", stock:20, idCat: "TB", precio: 2000, img: '../img/ElPorteñito.jpg' },
+    { id: "7", nombre: "Melodías de Arrabal", autor:"Vivian Tabbush", stock:20, idCat: "SA", precio: 1500, img: '../img/MelodiasDeArrabal.jpg' },
+    { id: "8", nombre: "Milonga triste", autor:"Javier Zentner", stock:20, idCat: "TB", precio: 1900, img: '../img/MilongaTriste.jpg' },
+    { id: "9", nombre: "El explicado", autor:"Les Luthiers", stock:20, idCat: "TB", precio: 2500, img: '../img/ElExplicado.jpg' },
 ];
 
 export const getProductos = () => {
