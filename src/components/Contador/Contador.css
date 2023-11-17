@@ -1,0 +1,28 @@
+.button {
+    margin: 5px;
+    padding: 5px 10px ;
+    font-family: 'Tajawal', sans-serif;
+    font-size: large;
+    background-color: #D9D6D0;
+    color: #202426;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.buttonAgregar {
+    font-family: 'Tajawal', sans-serif;
+    font-size: large;
+    background-color: #D9D6D0;
+    color: #73283d;
+    border-radius: 1rem;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.buttonAgregar:hover {
+    background-color: #73283d;
+    color:#D9D6D0;
+}

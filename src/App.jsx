@@ -11,7 +11,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <>
+    <div className='app'>
       <BrowserRouter>
         <CarritoProvider>
           <NavBar />
@@ -25,7 +25,7 @@ const App = () => {
             </Routes>
         </CarritoProvider>
       </BrowserRouter>
-    </>
+    </div>
   )
 }
 

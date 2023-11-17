@@ -20,16 +20,20 @@ const ItemDetail = ({ id, nombre, autor, stock, idCat, precio, img, detalle }) =
 
     return (
         <div className='contenedorItem'>
-            <h2>Nombre:{nombre} </h2>
-            <h3>Autor: {autor}</h3>
-            <h3>Precio: {precio}</h3>
-            <h3>Orgánico: {idCat}</h3>
-            <h3>Stock: {stock}</h3>
-            <img src={img} alt={nombre} />
-            <p>{detalle}</p>
-            {
-                agregarCantidad > 0 ? (<Link to="/cart">Terminar Compra</Link>) : (<Contador inicial={1} stock={stock} funcionAgregar={manejadorCantidad} />)
-            }
+            <div className='divImagen'>
+                <img src={img} alt={nombre} className='imagen'/>
+            </div>
+            <div className='info'>
+                <h2 className='infoItems'>Nombre: {nombre} </h2>
+                <h3 className='infoItems'>Autor: {autor}</h3>
+                <h3 className='infoItems'>Precio: {precio}</h3>
+                <h3 className='infoItems'>Orgánico: {idCat}</h3>
+                <h3 className='infoItems'>Stock: {stock}</h3>
+                <p className='infoItems detalle'>{detalle}</p>
+                {
+                    agregarCantidad > 0 ? (<Link to="/cart" className='terminarCompra'>Terminar Compra</Link>) : (<Contador inicial={1} stock={stock} funcionAgregar={manejadorCantidad} />)
+                }
+            </div>
         </div>
     )
 }

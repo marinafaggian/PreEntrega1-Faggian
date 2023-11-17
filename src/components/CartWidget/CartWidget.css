@@ -1,7 +1,12 @@
 .carrito {
     display: flex;
     align-items: center;
-    margin: 15px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.strongCart {
     color: #73283d;
-    font-family: 'Megrim', cursive;
+    text-decoration: none;
+    font-family: 'Tajawal', sans-serif;
 }

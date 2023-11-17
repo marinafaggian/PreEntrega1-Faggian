@@ -1,15 +1,25 @@
-header { 
-    color: #73283d;
+.header {
+    width: 100%;
+    top: 0;
+}
+
+.navBar {
     display: flex;
     align-items: center;
-    margin: 0px 10px;
+    margin: 0px;
+    top: 0;
     justify-content: space-between;
     border-bottom: 2px solid #73283d;
+    background: rgba(217, 217, 217, 0.58);
 }
 
 .titulos {
+    color: #73283d;
     padding: 10px;
-    font-family: 'Megrim', cursive;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    text-decoration: none;
 }
 
 .logoNavBar {
@@ -20,18 +30,31 @@ h1 {
     margin: 5px 10px;
 }
 
-h3 {
+h2 {
     margin: 5px 10px;
+    text-align: center;
 }
 
 ul {
+    color: #73283d;
     margin: 10px;
 }
 
 li {
     display: inline-block;
     margin: 10px;
+}
+
+.li {
+    color: #73283d;
     cursor: pointer;
     font-family: 'Tajawal', sans-serif;
-    font-weight: 300; 
+    font-weight: 400;
+    font-size: large;
+    text-decoration: none;
+}
+
+.li:visited {
+    color: #73283d;
+    text-decoration: none;
 }

@@ -1,0 +1,55 @@
+.contenedorItem {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.divImagen {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.imagen {
+    border-radius: 1rem;
+}
+
+.info {
+    color: #73283d;
+    background-color: rgba(217, 217, 217, 0.58);
+    border-radius: 1rem;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.infoItems { 
+    margin: 5px;
+}
+
+.detalle {
+    font-size: large;
+}
+
+.terminarCompra {
+    text-decoration: none;
+    color: #73283d;
+    font-size: larger;
+    font-weight: 600;
+    background-color: rgba(217, 217, 217, 0.58);
+    border-radius: 1rem;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.terminarCompra:hover {
+    background-color: #73283d;
+    color:#D9D6D0;
+}

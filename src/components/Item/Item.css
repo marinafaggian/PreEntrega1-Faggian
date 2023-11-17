@@ -2,24 +2,55 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgray;
     font-family: 'Tajawal', sans-serif;
     text-align: center;
-    border-radius: 1rem;
     width: 15rem;
     margin: 15px;
     padding: 15px;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    border-radius: 17px;
+    cursor: pointer;
+    transition: all 0.5s;
+    user-select: none;
 }
+
+.cardProducto:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+}
+
+/* .cardProducto:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+} */
 
 .cardProducto img {
     width: inherit;
     border-radius: 1rem;
 }
 
-/* .cardProducto Link {
-    background-color: #73283d;
+.cardText {
+    margin: 5px;
+    color:#202426;
+}
+
+.cardLink {
+    background-color: rgb(178, 172, 160,0.7);
+    color: #73283d;
     border-radius: 1rem;
     border: none;
-    padding: 15px;
+    padding: 10px;
     cursor: pointer;
-} */
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.cardLink:hover {
+    background-color: #73283d;
+    color:#D9D6D0;
+}
+
+.obra {
+   color: #73283d;
+}
