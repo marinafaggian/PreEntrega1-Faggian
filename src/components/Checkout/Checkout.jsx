@@ -35,13 +35,13 @@ const Checkout = () => {
 
         if (!nombre || !apellido || !telefono || !email || !emailConfirmacion) {
             setError("Por favor completa todos los campos");
-            alert1();
+            alert1(error);
             return;
         }
 
         if (email !== emailConfirmacion) {
             setError("Los campos de email no coinciden");
-            alert2();
+            alert2(error);
             return;
         }
 

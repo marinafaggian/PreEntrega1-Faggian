@@ -8,6 +8,7 @@ import Cart from './components/Cart/Cart';
 import Checkout from './components/Checkout/Checkout';
 import "./App.css";
 import Footer from './components/Footer/Footer';
+import SitioEnConstruccion from './components/SitioEnConstruccion/SitioEnConstruccion';
 
 
 const App = () => {
@@ -22,7 +23,7 @@ const App = () => {
             <Route path='/item/:idItem' element={<ItemDetailContainer />} />
             <Route path='/cart' element={<Cart/>} />
             <Route path='/checkout' element={<Checkout/>} />
-            <Route path='/*' element={<h2>Sitio en construcción</h2>} />
+            <Route path='/*' element={<SitioEnConstruccion />} />
             </Routes>
             <Footer />
         </CarritoProvider>

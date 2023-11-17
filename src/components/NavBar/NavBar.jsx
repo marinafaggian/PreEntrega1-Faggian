@@ -24,6 +24,9 @@ const navbar = () => {
             <li>
               <NavLink to="categoria/SATB" className={"li"}>Voces Mixtas (SATB)</NavLink>
             </li>
+            <li>
+              <NavLink to="/*" className={"li"}>Instrumentales</NavLink>
+            </li>
           </ul>
         </nav>
 
