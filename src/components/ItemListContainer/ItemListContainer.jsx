@@ -15,13 +15,13 @@ const ItemListContainer = () => {
     getDocs(misProductos)
       .then(res => {
         const nuevosProductos = res.docs.map(doc => {
-          const data  = doc.data()
-          return {id:doc.id, ...data}
+          const data = doc.data()
+          return { id: doc.id, ...data }
         })
         setProductos(nuevosProductos);
       })
       .catch(error => console.log(error));
-    }, [idCategoria]);
+  }, [idCategoria]);
 
   return (
     <>
