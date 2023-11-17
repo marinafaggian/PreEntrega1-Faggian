@@ -7,6 +7,7 @@ import { CarritoProvider } from './context/CarritoContext';
 import Cart from './components/Cart/Cart';
 import Checkout from './components/Checkout/Checkout';
 import "./App.css";
+import Footer from './components/Footer/Footer';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
             <Route path='/checkout' element={<Checkout/>} />
             <Route path='/*' element={<h2>Sitio en construcción</h2>} />
             </Routes>
+            <Footer />
         </CarritoProvider>
       </BrowserRouter>
     </div>

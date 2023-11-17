@@ -1,0 +1,94 @@
+.titulo {
+    font-family: 'Tajawal', sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+    color: #73283d;
+    background: rgba(217, 217, 217, 0.58);
+    margin: 30px;
+    padding: 15px;
+}
+
+
+.formulario {
+    font-family: 'Tajawal', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.58);
+    margin: 30px;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #73283d;
+    font-size: larger;
+    margin: 10px;
+    border-bottom: 2px solid #73283d;
+}
+
+.producto {
+    margin: 5px;
+}
+
+.formImputs {
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.form-group {
+    margin: 5px;
+    padding: 5px;
+}
+
+.label {
+    padding: 0px 20px;
+    color: #73283d;
+    font-weight: bold;
+    font-size: large;
+}
+
+.input {
+    background-color: #A48C7F;
+    border-color: #A48C7F;
+    color: #202426;
+    padding: 5px 5px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 1rem;
+    width: 350px;
+}
+
+.buttonConfirmacion {
+    text-decoration: none;
+    color: #73283d;
+    font-size: larger;
+    font-weight: 600;
+    background-color: rgba(217, 217, 217, 0.58);
+    border-radius: 1rem;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.buttonConfirmacion:hover {
+    background-color: #73283d;
+    color: #D9D6D0;
+}
+
+.ordenFinalizada {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: #202426;
+}

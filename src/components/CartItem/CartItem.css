@@ -1,0 +1,41 @@
+.itemConteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.58);
+    margin: 10px 10px;
+    color: #73283d;
+    font-family: 'Tajawal', sans-serif;
+    font-size: larger;
+    border-bottom: 2px solid #73283d;
+}
+
+.itemNombre {
+    font-size: large;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.itemInfo {
+    font-size: medium;
+    font-weight:normal;
+    margin: 5px;
+}
+
+.buttonEliminar {
+    text-decoration: none;
+    color: #73283d;
+    font-size: large;
+    font-weight: 500;
+    background-color: rgba(217, 217, 217, 0.58);
+    border-radius: 1rem;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.buttonEliminar:hover {
+    background-color: #73283d;
+    color: #D9D6D0;
+}

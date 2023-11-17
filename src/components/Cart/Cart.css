@@ -1,0 +1,69 @@
+.noProductosConteiner {
+    background: rgba(217, 217, 217, 0.58);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Tajawal', sans-serif;
+    margin: 60px;
+}
+
+.noProductos {
+    font-size: x-large;
+    font-weight: 700;
+    color: #73283d;
+    margin: 20px;
+    padding: 15px;
+}
+
+.noProductosLink {
+    color: #73283d;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 500;
+    font-size: large;
+    text-decoration: none;
+}
+
+.cartConteiner {
+    background: rgba(217, 217, 217, 0.58);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Tajawal', sans-serif;
+    margin: 10px;
+}
+
+.cartInfo {
+    color: #73283d;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 8px;
+}
+
+.buttonConteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartButton {
+    text-decoration: none;
+    color: #73283d;
+    font-size: larger;
+    font-weight: 600;
+    background-color: rgba(217, 217, 217, 0.58);
+    border-radius: 1rem;
+    border: #202426 solid 1px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.cartButton:hover {
+    background-color: #73283d;
+    color: #D9D6D0;
+}
