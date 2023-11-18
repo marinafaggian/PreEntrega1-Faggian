@@ -5,7 +5,6 @@ import './CartItem.css'
 
 const CartItem = ({item, cantidad}) => {
     const {eliminarProducto} =useContext(CarritoContext);
-    console.log(item, cantidad);
   return (
     <div className='itemConteiner'>
         <h4 className='itemNombre'> {item.nombre} </h4>

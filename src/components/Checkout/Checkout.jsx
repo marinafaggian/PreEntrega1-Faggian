@@ -101,7 +101,7 @@ const Checkout = () => {
                     })
             })
             .catch((error) => {
-                console.log("No se pudo actualiza rel stock", error);
+                console.log("No se pudo actualizar el stock", error);
                 setError("No se pudo actualizar el stock");
             })
 
@@ -142,17 +142,13 @@ const Checkout = () => {
                         <label htmlFor="" className='label'>Confirmar Email</label>
                         <input type="email" onChange={(e) => setEmailConfirmacion(e.target.value)} className='input' />
                     </div>
-                    </div>
-                    <button type='submit' className='buttonConfirmacion'>Confirmar compra</button>
-
-                    <div className='ordenFinalizada'>
-                        {
-                            ordenId && (
-                                <p> ¡Gracias por tu compra! Tu número de orden es: {ordenId}</p>
-                            )
-                        }
-                    
                 </div>
+                <button type='submit' className='buttonConfirmacion'>Confirmar compra</button>
+                {
+                    ordenId && (
+                        <p className='ordenFinalizada'> ¡Gracias por tu compra! Tu número de orden es: {ordenId}</p>
+                    )
+                }
             </form>
 
 

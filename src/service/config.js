@@ -3,7 +3,7 @@ import { getFirestore } from 'firebase/firestore';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCMUNAHylv-92A2OXDGPUv8u_-FZvD9Fow",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "auris--partituras.firebaseapp.com",
   projectId: "auris--partituras",
   storageBucket: "auris--partituras.appspot.com",

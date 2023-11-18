@@ -86,9 +86,11 @@
     color: #D9D6D0;
 }
 
-.ordenFinalizada {
+.ordenFinalizada{
     font-family: 'Tajawal', sans-serif;
     font-weight: bold;
     font-size: large;
     color: #202426;
+    border: 2px #73283d solid;
+    padding: 10px;
 }

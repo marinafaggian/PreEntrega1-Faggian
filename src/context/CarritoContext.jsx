@@ -12,8 +12,6 @@ export const CarritoProvider = ({ children }) => {
     const [total, setTotal] = useState(0);
     const [cantidadTotal, setCantidadTotal] = useState(0);
 
-    console.log(carrito);
-
     const agregarAlCarrito = (item, cantidad) => {
         const productoExistente = carrito.find(prod => prod.item.id === item.id);
         const toast1 = () => Toastify({text: "¡Se agregó tu producto al carrito!", duration: 2000}).showToast();
